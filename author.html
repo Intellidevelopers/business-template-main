@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>iSquare Agency</title>
+  <link rel="stylesheet" href="author.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" style="font-weight: 700;" href="#">
+    <img src="/assets/images/logo.svg" alt="">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#" onclick="closeNavbar()">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" onclick="closeNavbar()">Projects</a>
+      </li>
+      <!-- Add more navlinks as needed -->
+    </ul>
+  </div>
+</nav>
+    <header>
+        <h2>Meet Our Amazing Authors</h2>
+        <h3>Discover the talented individuals behind the words.</h3>
+    </header>
+
+    <div class="authors-container">
+        <div class="author-card">
+            <img src="/assets/images/sit.png" alt="Author 1" class="author-image">
+            <h3>Adeagbo Josiah</h3>
+            <p>Role: Software Engineer</p>
+            <button>Learn More</button>
+        </div>
+
+        <div class="author-card">
+            <img src="/assets/images/sit.png" alt="Author 2" class="author-image">
+            <h3>Ladalo</h3>
+            <p>Role: Editor</p>
+            <button>Learn More</button>
+        </div>
+
+        <div class="author-card">
+            <img src="/assets/images/sit.png" alt="Author 3" class="author-image">
+            <h3>Chinaza</h3>
+            <p>Role: Illustrator</p>
+            <button>Learn More</button>
+        </div>
+
+        <div class="author-card">
+            <img src="/assets/images/sit.png" alt="Author 4" class="author-image">
+            <h3>Nehemiah</h3>
+            <p>Role: Poet</p>
+            <button>Learn More</button>
+        </div>
+
+        <div class="author-card">
+            <img src="/assets/images/sit.png" alt="Author 5" class="author-image">
+            <h3>Mathias</h3>
+            <p>Role: Researcher</p>
+            <button>Learn More</button>
+        </div>
+    </div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+  function closeNavbar() {
+    $(".collapse").collapse("hide");
+  }
+</script>
+
+</body>
+</html>
